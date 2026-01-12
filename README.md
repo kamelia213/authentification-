@@ -21,11 +21,6 @@ Ce projet montre un flux d'authentification simple avec pages EJS, stockage des 
 4. Si ok, une session est creee et la page `home` est rendue.
 5. L'utilisateur peut se deconnecter avec `/logout`.
 
-## Limites actuelles (a connaitre)
-- Session en memoire (pas adaptee a la production).
-- Pas de validations avancees (format, longueur, etc.).
-- Pas de protection contre bruteforce/CSRF.
-
 ## Prerequis
 - Node.js (version recente)
 - Un compte MongoDB Atlas
